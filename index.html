@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://www.sdsc.edu/assets/images/favicon.ico"
+            rel="icon"
+            type="image/x-icon"
+        />
+        <link
+            type="text/css"
+            rel="stylesheet"
+            href="./../assets/css/default.css"
+        />
+        <link
+            type="text/css"
+            rel="stylesheet"
+            href="./../assets/css/default+en.css"
+        />
+        <link
+            type="text/css"
+            rel="stylesheet"
+            href="./../assets/css/common_clean.css"
+        />
+        <link
+            type="text/css"
+            rel="stylesheet"
+            href="./../assets/css/youtube.css"
+        >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="./../assets/js/index.js"></script>
+        <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="header"></div>
+    <section id="center">
+        <ul id="breadcrumbs"></ul>
+        <h1 id='title'></h1>
+        <p id="pres-info"></p>
+        <div id="video-box">
+            <div id="youtube-video"><iframe id="youtube-video" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Parallel Computing Concepts" width="640" height="360" src=""></iframe></div>
+            <div id="ts">
+                <div id="ts-header">
+                    <h2 id="ts-title">Transcript</h2>
+                    <span id="ts-settings" class="material-symbols-outlined">overview</span>
+                </div>
+                <input id="transcript-search" type="text" placeholder="Search in video">
+                <button id="clear"c>X</button>
+                <ul id="transcript" class="ts-display">
+                </ul>
+                <ul id="toc" class="ts-display">
+                </ul>
+            </div>
+        </div>
+        <p id="description"></p>
+        <div id="resources">
+            <h3 id="resources-title">Resources</h3>
+            <div id="badges"></div>
+        </div>
+    </section>
+    <div id="footer"></div>
+</body>
+</html>

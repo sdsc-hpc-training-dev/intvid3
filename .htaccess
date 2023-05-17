@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([\w-]+)/?$ /training/interactive/dev/?id=$1 [L,R=301]

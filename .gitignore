@@ -1,0 +1,9 @@
+
+# Events Data
+events.json
+
+# Python Runs
+__pycache__
+
+# Transcripts
+transcripts/
