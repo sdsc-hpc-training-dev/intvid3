@@ -61,7 +61,7 @@ def sync_events(full_refresh = False):
                 intvid_link = link.replace("https://education.sdsc.edu/training/interactive/", "")
 
         # Build event
-        events[page_id] = {
+        events[name] = {
             "name": name,
             "title": title,
             "start": start_ts,
